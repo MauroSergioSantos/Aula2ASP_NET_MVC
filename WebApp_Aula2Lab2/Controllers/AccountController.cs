@@ -21,7 +21,7 @@ namespace WebApp_Aula2Lab2.Controllers
         public AccountController()
         {
         }
-
+        //TODO: exemplo de acesso a dados//
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
             UserManager = userManager;
